@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap');
+
+.encabezado{
+    
+    .navbar{
+
+        background-color: $navbar-fondo;
+        .navbar-nav{
+
+            .nav-link{
+                font-family: 'Bebas Neue';
+                font-size: 1.5rem;
+                color: white;
+
+                &:hover {
+                    color: lightgray;
+                }
+            }
+        }
+    } 
+    
+}

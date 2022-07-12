@@ -1,0 +1,9 @@
+$navbar-fondo : #000000;
+$fonts: (
+    normal: 'Bebas Neue',
+    cuerpo: 'Square Peg'
+);
+
+@mixin colour($colour) {
+    color: $colour;
+}
